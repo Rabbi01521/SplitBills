@@ -1,0 +1,113 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-fw {
+  font-weight: 500;
+}
+
+.text-color {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.text-color:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.font-style {
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 60px;
+  color: #ffff;
+}
+
+.hero-height {
+  width: 100%;
+}
+
+.sponsor {
+  height: 100%;
+  background-color: rgba(19, 160, 254, 0.1);
+}
+
+.social-text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.bg-color {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.upper-1 {
+  padding: 27px 25px;
+}
+.upper-2 {
+  padding: 35px 30px;
+}
+.upper-3 {
+  padding: 43px 25px;
+}
+
+.bg-cl-1 {
+  background-color: rgba(18, 158, 252, 1);
+}
+
+.bg-cl-2 {
+  background-color: rgba(254, 128, 140, 1);
+}
+
+.bg-cl-3 {
+  background-color: rgba(101, 213, 141, 1);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgba(19, 160, 254, 1);
+}
+
+.color-text li a,
+.fas {
+  color: #ffff;
+}
+
+.btn-color {
+  background-color: rgba(0, 112, 187, 1);
+}
+
+.down-footer {
+  background-color: rgba(29, 36, 50, 1);
+}
+
+.ft-manu a {
+  margin-left: 10px;
+  color: #ffff;
+}
+
+.ft-manu a:hover {
+  color: aqua;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-manu {
+    flex-direction: column;
+  }
+  .ft-manu a {
+    font-size: 14px;
+  }
+  .footer-manu h6 {
+    font-size: 15px;
+  }
+}
